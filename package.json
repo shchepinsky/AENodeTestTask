@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "case1": "node ./index.js --origin=startbootstrap-sb-admin-2-examples/sample-0-origin.html --id=make-everything-ok-button --diff=startbootstrap-sb-admin-2-examples/sample-1-evil-gemini.html",
+    "case2": "node ./index.js --origin=startbootstrap-sb-admin-2-examples/sample-0-origin.html --id=make-everything-ok-button --diff=startbootstrap-sb-admin-2-examples/sample-2-container-and-clone.html",
+    "case3": "node ./index.js --origin=startbootstrap-sb-admin-2-examples/sample-0-origin.html --id=make-everything-ok-button --diff=startbootstrap-sb-admin-2-examples/sample-3-the-escape.html",
+    "case4": "node ./index.js --origin=startbootstrap-sb-admin-2-examples/sample-0-origin.html --id=make-everything-ok-button --diff=startbootstrap-sb-admin-2-examples/sample-4-the-mash.html"
+  },
+  "dependencies": {
+    "jsdom": "^13.0.0",
+    "lodash": "^4.17.11"
+  }
+}
