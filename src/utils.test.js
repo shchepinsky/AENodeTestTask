@@ -130,7 +130,7 @@ describe('Test Suite Name', () => {
   })
 
   it('processArgs: missing arg', () => {
-    const {error} = console.error
+    const error = console.error
     console.error = jest.fn()
     process.exit = jest.fn()
     processArgs()
